@@ -1,5 +1,5 @@
 # MLGN
-The implementation of the paper: "Facial image inpainting using multi-level generative network"
+PyTorch code for the paper: "Facial image inpainting using multi-level generative network"
 
 The code is coming soon.
 ### Dependencies
