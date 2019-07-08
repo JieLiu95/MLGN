@@ -7,6 +7,17 @@ PyTorch 0.3
 
 Python 3.5
 
+### Architecture and Results
+<p align="center">
+  <img src="figs/generator.png">
+</p>
+The generative architecture of MLGN.
+
+<p align="center">
+  <img src="figs/random_results.png">
+</p>
+The results of MLGN (CelebA and CelebA-HQ).
+
 
 ## Reference
 ```
