@@ -7,12 +7,13 @@ PyTorch 0.3
 
 Python 3.5
 
-### Architecture and Results
+### Architecture
 <p align="center">
   <img src="figs/generator.png">
 </p>
 The generative architecture of MLGN.
 
+### Results
 <p align="center">
   <img src="figs/random_results.png">
 </p>
