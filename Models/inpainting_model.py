@@ -54,14 +54,6 @@ class InpaintingModel(BaseModel):
         print(self.netG)
         weights = torch.load(os.getcwd() + '/checkpoints/Inpainting/' + 'celeba-hq-random_net_G.pth')
 
-
-        # for param in self.netG.parameters():
-        #     param.requires_grad = False
-        # print(self.netG.state_dict().keys())
-
-        if self.isTrain:
-            self.netD = models_gd.Discriminator().cuda()
-
         if not self.isTrain or opt.continue_train:
             self.load_network(self.netG, 'G', opt.which_epoch)
             if self.isTrain:
