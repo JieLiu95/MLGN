@@ -1,7 +1,6 @@
 # MLGN
 PyTorch code for the paper: "[Facial image inpainting using multi-level generative network](https://ieeexplore.ieee.org/document/8784896)"
 
-The code is coming soon.
 ### Dependencies
 PyTorch 0.3
 
